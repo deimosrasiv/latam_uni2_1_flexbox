@@ -1,0 +1,111 @@
+/*@import url('https.//fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap');*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400");
+
+
+
+
+
+
+
+html {
+    font-family: "Raleway", serif;
+    font-size: 100%;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox-container{
+   display: flex;
+   flex-direction: row;
+}
+
+
+.columna_1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.icon{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%px;
+    display: flex;
+    align-items: center; 
+}
+.caja{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 216);
+}
+
+.usuario {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.contactos {
+    
+    display: flex;
+    align-items:flex-star ;
+    justify-content: space-between;
+}
+
+.boton_chat{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 216);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.mensajes{
+    width: 80%;
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 216);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mensajes img{
+    width:25%;
+}
+
+.card-body{
+    padding: 0;
+}
+
+
+
+.fotoredonda{
+    padding: 10px;
+    width: 90px;
+    
+}
+.btn{
+    background-color:#A491D2;
+    border-color:#A491D2;
+}
